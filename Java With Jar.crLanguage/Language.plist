@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompilerScript</key>
+	<true/>
+	<key>ConsoleType</key>
+	<integer>0</integer>
+	<key>Debugger</key>
+	<string>jdb</string>
+	<key>Enabled</key>
+	<string>YES</string>
+	<key>FileExtensions</key>
+	<array>
+		<string>java</string>
+	</array>
+	<key>Grammar</key>
+	<string>source.java</string>
+	<key>LanguageBundleVersion</key>
+	<integer>1</integer>
+	<key>LastUsed</key>
+	<date>2017-08-09T14:12:21Z</date>
+	<key>Name</key>
+	<string>Java With Jar</string>
+	<key>OutputEncoding</key>
+	<integer>0</integer>
+	<key>RequiresExternalComponents</key>
+	<true/>
+	<key>RunCommand</key>
+	<string>java -cp "`find . -name "*.jar" | tr "\n" ":"`${compiler%:*}" "${compiler#*:}"</string>
+	<key>SoftTabs</key>
+	<false/>
+	<key>TabWidth</key>
+	<integer>4</integer>
+	<key>Templates</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<true/>
+			<key>Extension</key>
+			<string>java</string>
+			<key>Name</key>
+			<string>Main File</string>
+			<key>NameOnCreation</key>
+			<false/>
+			<key>Template</key>
+			<string>class Untitled {
+	public static void main(String[] args) {
+		&lt;##&gt;
+	}
+}</string>
+			<key>TemplateModified</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<false/>
+			<key>Extension</key>
+			<string>java</string>
+			<key>Name</key>
+			<string>Class</string>
+			<key>NameOnCreation</key>
+			<true/>
+			<key>Template</key>
+			<string>//
+// ___FILENAME___
+// Created by ___FULLUSERNAME___ on ___DATE___.
+
+public class ___FILEBASENAME___ {
+	&lt;##&gt;
+}</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<false/>
+			<key>Extension</key>
+			<string>java</string>
+			<key>Name</key>
+			<string>Interface</string>
+			<key>NameOnCreation</key>
+			<true/>
+			<key>Template</key>
+			<string>//
+// ___FILENAME___
+// Created by ___FULLUSERNAME___ on ___DATE___.
+
+public interface ___FILEBASENAME___ {
+	&lt;##&gt;
+}</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<false/>
+			<key>Extension</key>
+			<string>java</string>
+			<key>Name</key>
+			<string>Enum</string>
+			<key>NameOnCreation</key>
+			<true/>
+			<key>Template</key>
+			<string>//
+// ___FILENAME___
+// Created by ___FULLUSERNAME___ on ___DATE___.
+
+public enum ___FILEBASENAME___ {
+	&lt;##&gt;
+}</string>
+		</dict>
+	</array>
+	<key>UseCount</key>
+	<integer>6</integer>
+	<key>uuid</key>
+	<string>74E0DFDD-8EBB-43C2-9608-C2AF40A780C2</string>
+</dict>
+</plist>
