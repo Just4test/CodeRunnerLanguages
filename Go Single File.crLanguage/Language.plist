@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompilerFlags</key>
+	<string></string>
+	<key>CompilerScript</key>
+	<true/>
+	<key>ConsoleType</key>
+	<integer>0</integer>
+	<key>Debugger</key>
+	<string>gdb</string>
+	<key>Enabled</key>
+	<true/>
+	<key>FileExtensions</key>
+	<array>
+		<string>go</string>
+	</array>
+	<key>Grammar</key>
+	<string>source.go</string>
+	<key>Installer</key>
+	<array>
+		<string>go</string>
+		<string>the Go compiler</string>
+		<string>http://golang.org</string>
+	</array>
+	<key>LanguageBundleVersion</key>
+	<integer>1</integer>
+	<key>LastUsed</key>
+	<date>2017-09-21T07:33:32Z</date>
+	<key>Name</key>
+	<string>Go Single File</string>
+	<key>OutputEncoding</key>
+	<integer>0</integer>
+	<key>RequiresExternalComponents</key>
+	<true/>
+	<key>RunCommand</key>
+	<string>./$compiler</string>
+	<key>SoftTabs</key>
+	<false/>
+	<key>TabWidth</key>
+	<integer>4</integer>
+	<key>Templates</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<integer>1</integer>
+			<key>Extension</key>
+			<string>go</string>
+			<key>Name</key>
+			<string>Main File</string>
+			<key>NameOnCreation</key>
+			<false/>
+			<key>Template</key>
+			<string>package main
+
+func main() {
+	&lt;##&gt;
+}</string>
+			<key>TemplateModified</key>
+			<true/>
+		</dict>
+	</array>
+	<key>UseCount</key>
+	<integer>36</integer>
+	<key>uuid</key>
+	<string>7FD5F9D2-E28D-4D33-901C-84964621C247</string>
+</dict>
+</plist>
